@@ -1,0 +1,19 @@
+programa
+{
+	funcao inicio()
+	{
+	
+		cadeia nome[] = { "Henrique", "Alexia" , "Andreia", "Alessandra", "Rai" }
+		inteiro numero[] = { 90, 45, 68, 87, 71 }
+
+		escreva ("--------------------\n")
+		escreva ("     TABELA NOTAS   \n")
+		escreva ("--------------------\n")
+		  
+		para (inteiro posicao = 0; posicao < 5; posicao++)
+		{
+			
+			escreva (nome[posicao], "\t\t", numero [posicao], "\n")
+		}
+	}
+}
